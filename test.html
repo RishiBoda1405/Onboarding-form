@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>TWS Onboarding Survey</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+<div class = "logo">
+  <img src="https://image4.owler.com/logo/teleworld-solutions_owler_20200114_130837_original.png" alt="Logo" height = "50">
+    </div>
+
+  <main>
+
+
+
+    <header>
+    <h1 id="title">Onboarding Updates</h1>
+    <p id="description">Thank you for taking the time to help us understand where you are </p>
+  </header>
+
+    <form id="survey" action="https://formspree.io/f/mvolnyve" method="POST" name="Onboarding">
+      <div class="form-group">
+        <label id="name-label" for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required></input>
+      </div>
+      
+
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email" required></input>
+      </div>
+
+      <div class="form-group">
+        <label id="employee_id-label" for="employee_id">Employee ID</label>
+        <input type="text" name="employee_id" id="employee_id" placeholder="Enter your employee id" required />
+      </div>
+      
+      
+      <div class="form-group">
+        <label for="dropdown">Please select your current role?</label>
+        <select name="dropdown" id="dropdown" required>
+          <option value="">Select current role</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="other">other</option>
+        </select>
+      </div>
+      
+
+
+      <div class="form-group">
+        <p>Please check upon completing these tasks? <span class="optional">(Check all that apply)</span></p>
+        <label> <input type="checkbox" name="I-9" class="radio-btn" name="reccomendation" id="I-9"
+            value="I-9" required>
+          I-9 </label>
+        <label> <input type="checkbox" name="Documents_Submission" class="radio-btn" name="reccomendation" id="Documents_Submission"
+            value="Documents_Submission" required>
+          Documents Submission </label>
+        <label> <input type="checkbox" name="Bank_Details" class="radio-btn" name="reccomendation" id="Bank_Details"
+            value="Bank_Details" required>
+          Bank Details</label>
+        <label> <input type="checkbox" name="Infosec_Training" class="radio-btn" name="reccomendation" id="Infosec_Training" value="Infosec_Training" required>
+          Infosec Training </label>
+        <label> <input type="checkbox" name="Hr_Orientation" class="radio-btn" name="reccomendation" id="Hr_Orientation" value="Hr_Orientation" required>
+          Hr Orientation </label>
+      </div>
+
+
+      <div class="form-group">
+        <label for="comments">Any comments or queries?</label>
+        <textarea name="comments" id="comments" rows="10" placeholder="Enter your comment here..."></textarea>
+      </div>
+
+<p>Note: Failure of completing any of these tasks upon first 3 days of joining leads to termination without further notice. </p>
+
+      <div class="form-group">
+        <button type="submit" name="submit" id="submit" class="submit-button">
+          Submit
+        </button>
+
+      </div>
+
+  
+
+
+    </form>
+
+
+    <!--
+    
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+    - The freeCodeCamp Team
+    -->
+  </main>
+  <!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <script src="js/index.js"></script>
+-->
+
+
+</body>
+
+</html>
